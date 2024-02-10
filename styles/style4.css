@@ -1,0 +1,90 @@
+.fourth-cont {
+  height: 95vh;
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fourth-cont-1 {
+  position: relative;
+  width: 70vw;
+  height: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fourth-cont-card {
+  padding: 3rem;
+  position: absolute;
+  width: 20rem;
+  height: 23rem;
+  background-color: rgba(0, 255, 225, 0.885);
+  top: -3rem;
+  line-height: 1.5rem;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.fourth-cont-card-info {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+}
+.fourth-cont-card-info span {
+  font-size: 2.5rem;
+}
+.fourth-cont-12 {
+  height: 70%;
+  width: 40%;
+  font-size: 4rem;
+  font-weight: bold;
+  color: white;
+}
+.fourth-cont-2 {
+  display: flex;
+  width: 70vw;
+  height: 30%;
+  color: white;
+}
+.fourth-cont-21 {
+  flex: 4;
+  font-size: 4rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  padding-right: 4rem;
+}
+.fourth-cont-22 {
+  font-size: 1.1rem;
+  padding-left: 10rem;
+  flex: 5;
+  padding-top: 6rem;
+}
+@media screen and (max-width: 480px) {
+  .fourth-cont {
+    height: 120vh;
+    justify-content: space-evenly;
+  }
+  .fourth-cont-1 {
+    flex-direction: column;
+  }
+  .fourth-cont-12 {
+    width: 80%;
+    margin-top: 40vh;
+    font-size: 3rem;
+    height: 40%;
+  }
+  .fourth-cont-2 {
+    width: 90vw;
+    flex-direction: column;
+  }
+  .fourth-cont-21 {
+    padding: 0;
+    font-size: 3rem;
+    color: orange;
+  }
+  .fourth-cont-22 {
+    padding: 0;
+  }
+}

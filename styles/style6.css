@@ -1,0 +1,55 @@
+.sixth-cont {
+  height: 60vh;
+  background-color: rgb(26, 25, 25);
+  display: flex;
+  justify-content: center;
+}
+.sixth-cont-1 {
+  width: 70vw;
+  height: 100%;
+  padding-top: 4rem;
+}
+.sixth-cont-11 {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-bottom: 2rem;
+}
+.sixth-cont-111 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.sixth-cont-12 {
+  width: 90%;
+  font-size: 5.5rem;
+  font-weight: 500;
+  color: gray;
+}
+.sixth-cont-13 {
+  margin: 2rem 0 4rem 0;
+  font-weight: 500;
+  color: white;
+  text-decoration: 2px solid green underline;
+}
+.sixth-cont-1 hr {
+  margin: 3rem 0;
+}
+.sixth-cont-14 {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+@media screen and (max-width: 480px) {
+  .sixth-cont-1 {
+    width: 95vw;
+  }
+  .sixth-cont-111 {
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .sixth-cont-12 {
+    font-size: 2.5rem;
+  }
+}

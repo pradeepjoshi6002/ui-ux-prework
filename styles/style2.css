@@ -1,0 +1,84 @@
+.second-cont {
+  /* background-color: lightgray; */
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second-cont > div {
+  /* background-color: red; */
+  width: 70%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.second-cont-11 {
+  flex: 3;
+  /* background-color: lightyellow; */
+  font-size: 3.5rem;
+  width: 80%;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.second-cont-12 {
+  width: 75%;
+  flex: 1;
+  /* background-color: lightblue; */
+}
+.second-cont-cards-cont {
+  flex: 3;
+  /* background-color: lightseagreen; */
+  display: flex;
+  gap: 7rem;
+}
+.second-cont-card {
+  /* background-color: red; */
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.second-cont-card-1 {
+  /* background-color: slateblue; */
+  height: 20%;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+.second-cont-card-1 p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  z-index: 1;
+}
+.second-cont-card-1 div {
+  top: 0;
+  position: absolute;
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: gray;
+  opacity: 0.3;
+}
+@media screen and (max-width: 480px) {
+  .second-cont > div {
+    width: 90%;
+    justify-content: center;
+  }
+  .second-cont-11 {
+    font-size: 2rem;
+    flex: 1;
+  }
+  .second-cont-12 {
+    flex: 1;
+    width: 90%;
+  }
+  .second-cont-cards-cont {
+    flex: 1;
+    width: 100vw;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-evenly;
+  }
+  .second-cont-card {
+    width: 30vw;
+    height: 25vh;
+  }
+}

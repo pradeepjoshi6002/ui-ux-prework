@@ -1,0 +1,103 @@
+.third-cont {
+  position: relative;
+  height: 140vh;
+  background-color: rgb(64, 63, 63);
+  padding-top: calc(50vh - 1rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.second-third-img {
+  position: absolute;
+  top: -8rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-image: url("/Images/third-bg.jpg");
+  width: 70%;
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.third-cont-1 {
+  height: 40vh;
+  width: 70%;
+  display: flex;
+  gap: 4rem;
+}
+.third-cont-11 {
+  flex: 1;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.third-cont-11 hr {
+  width: 100%;
+  margin: 3rem 0;
+}
+.third-cont-111 {
+  font-size: 6rem;
+  font-weight: 600;
+}
+.third-cont-112 {
+  font-weight: bold;
+}
+.third-cont-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.third-cont-2 div {
+  font-size: 4rem;
+  font-weight: bold;
+}
+.third-cont-3 {
+  margin-top: 4rem;
+  margin-bottom: 8rem;
+  display: flex;
+  width: 50%;
+  gap: 8rem;
+  height: 35vh;
+}
+.third-cont-311 {
+  font-weight: bold;
+}
+.third-cont-3112 {
+  background-color: black;
+}
+.third-cont-3 > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+  color: white;
+  padding-bottom: 4rem;
+}
+
+.third-cont-3 > div span {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+.third-cont-3 > div div {
+  flex: 1;
+}
+@media screen and (max-width: 480px) {
+  .third-cont-1 {
+    width: 90%;
+    gap: 1rem;
+  }
+  .third-cont-111 {
+    font-size: 4rem;
+  }
+  .third-cont-2 div {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .third-cont-3 {
+    width: 95%;
+    gap: 1rem;
+  }
+}

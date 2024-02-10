@@ -1,0 +1,93 @@
+.fifth-cont {
+  background-color: white;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.fifth-cont-portfolio {
+  top: -40%;
+  position: absolute;
+  width: 70vw;
+  height: 38vh;
+  display: flex;
+}
+.portfolio-cards {
+  flex: 1;
+  background-image: url("/Images/person.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.portfolio-cards > div {
+  background-color: white;
+}
+.portfolio-cards-name {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.portfolio-cards-position {
+  font-size: 0.6rem;
+}
+.fifth-cont-2 {
+  margin-top: 15vh;
+  height: 45vh;
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fifth-cont-21 {
+  flex: 3;
+  font-size: 3.5rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fifth-cont-22 {
+  flex: 5;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1rem;
+  height: 70%;
+}
+.fifth-cont-22 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+.fifth-cont-22 span {
+  font-size: 3rem;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 480px) {
+  .fifth-cont-portfolio {
+    display: none;
+  }
+  .fifth-cont-2 {
+    flex-direction: column;
+    width: 90vw;
+  }
+  .fifth-cont-21 {
+    width: 90vw;
+    font-size: 2.5rem;
+  }
+  .fifth-cont-22 {
+    width: 90vw;
+  }
+  .fifth-cont-22 div {
+    font-size: 1.2rem;
+  }
+  .fifth-cont-22 span {
+    font-size: 2rem;
+  }
+}

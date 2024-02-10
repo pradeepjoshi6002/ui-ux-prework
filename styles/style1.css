@@ -1,0 +1,73 @@
+.top-cont {
+  height: 80vh;
+  background-image: url("/Images/topbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: red;
+  display: flex;
+  position: relative;
+}
+
+.top-sidebar {
+  height: 100%;
+  width: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-right: 0.5px solid white;
+  padding: 0.8rem 0;
+}
+.top-sidebar * {
+  display: inline-block;
+  color: white;
+  font-size: 3rem;
+}
+.top-sidebar div {
+  font-size: 1rem;
+  transform: rotate(-90deg);
+  font-weight: bold;
+}
+.top-center-text {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-right: 20rem;
+}
+.top-center-text-1 {
+  font-size: 8rem;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.top-cases {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding-top: 1rem;
+  padding-right: 1rem;
+}
+.top-cases span {
+  font-size: 2.5rem;
+}
+@media screen and (max-width: 480px) {
+  .top-sidebar {
+    display: none;
+  }
+  .top-center-text {
+    padding: 0;
+    width: 100%;
+    padding-left: 1rem;
+  }
+  .top-center-text-1 {
+    font-size: 5rem;
+  }
+}
