@@ -3,7 +3,6 @@
   background-image: url("/Images/topbg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: red;
   display: flex;
   position: relative;
 }
